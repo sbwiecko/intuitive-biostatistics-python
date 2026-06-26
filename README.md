@@ -13,7 +13,7 @@ To get started, you will need Python 3.12 installed on your machine. I recommend
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/sbwiecko/intuitive-biostatistics-python.git](https://github.com/yourusername/intuitive-biostatistics-python.git)
+git clone https://github.com/sbwiecko/intuitive-biostatistics-python.git
 cd intuitive-biostatistics-python
 ```
 
@@ -36,5 +36,5 @@ pip install -r requirements.txt
 ## Get the Book
 
 If you have stumbled upon this repository and want to learn the concepts behind the code, you can grab a copy of the book here:
-📚 **[Buy "Intuitive Biostatistics with Python" on Oxford University Press](https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845882?cc=fr&lang=en&)**
+📚 **[Buy "Intuitive Biostatistics with Python" on Oxford University Press](https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845035?q=sebastien%20wieckowski)**
 
