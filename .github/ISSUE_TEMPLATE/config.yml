@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a Question or Discuss a Chapter
+    url: https://github.com/sbwiecko/intuitive-biostatistics-python/discussions
+    about: Have a question about a statistical test, Python syntax, or how to apply the code to your own data? Head over to GitHub Discussions!

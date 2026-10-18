@@ -1,0 +1,74 @@
+name: 🐛 Code Bug or Book Errata
+description: Report a broken code cell, dataset issue, or typo in the companion notebooks.
+title: "[Chapter X]: Brief description of the issue"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report an issue! 
+        *Note: If you have a general question about biostatistics or Python, please post in [Discussions](https://github.com/sbwiecko/intuitive-biostatistics-python/discussions) instead.*
+
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Affected Chapter / Notebook
+      description: Which notebook or section does this issue apply to?
+      options:
+        - "General / Repository Setup / requirements.txt"
+        - "01_quantifying_scatter_continuous_data.ipynb"
+        - "02_gaussian_distribution.ipynb"
+        - "03_confidence_interval_mean.ipynb"
+        - "04_confidence_interval_proportion.ipynb"
+        - "05_confidence_interval_survival_data.ipynb"
+        - "06_confidence_interval_counted_data.ipynb"
+        - "07_statistical_significance.ipynb"
+        - "08_statistical_power_sample_size.ipynb"
+        - "09_normality_tests_outliers.ipynb"
+        - "10_comparing_proportions.ipynb"
+        - "11_comparing_survival_curves.ipynb"
+        - "12_comparing_two_unpaired_means.ipynb"
+        - "13_comparing_paired_data.ipynb"
+        - "14_correlation.ipynb"
+        - "15_simple_linear_regression.ipynb"
+        - "16_comparing_models.ipynb"
+        - "17_nonlinear_regression.ipynb"
+        - "18_multiple_regression.ipynb"
+        - "19_logistic_regression.ipynb"
+        - "20_anova.ipynb"
+        - "21_meta_analysis.ipynb"
+        - "A_analysis_ex_vivo_experiment.ipynb"
+        - "Dataset in /data directory"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Category
+      options:
+        - "Code error / Exception when running a cell"
+        - "Typo in code comments or variable names"
+        - "Discrepancy between book text and notebook output"
+        - "Package installation / Environment issue"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Problem
+      description: Please describe the bug or erratum clearly. If applicable, copy and paste the code cell or traceback error below.
+      placeholder: |
+        In cell [X], running the code produces...
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Python & OS Environment
+      description: How are you running the notebook? (Note that package versions in requirements.txt are pinned for statistical reproducibility).
+      placeholder: "e.g., Python 3.12 on Windows 11, macOS, or Binder"
+    validations:
+      required: false
