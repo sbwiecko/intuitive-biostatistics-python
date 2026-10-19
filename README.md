@@ -121,6 +121,39 @@ Click the **Launch Binder** badge below to run the notebooks in an interactive J
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbwiecko/intuitive-biostatistics-python/HEAD)
 
+### Option 3: Run with Anaconda (Book's Graphical Environment)
+
+As featured in the book, [Anaconda](https://anaconda.com/) provides an all-in-one data science distribution including Python, `conda`, and pre-curated packages. It features **Anaconda Navigator**, a point-and-click desktop application (GUI) ideal for managing environments and launching Jupyter Notebook without using the command line.
+
+**1. Install Anaconda:**
+
+* Download the full "Distribution Installer" for your operating system from the [official Anaconda download page](https://anaconda.com/download/success).
+* Run the installer using the default options (see the [troubleshooting guide](https://anaconda.com/docs/reference/troubleshooting) if needed).
+
+**2. Replicate the Book's Environment (`intuitive_biostatistics_python`):**
+
+* **Via Anaconda Navigator (GUI):**
+
+  1. Open **Anaconda Navigator** and go to the **Environments** tab on the left.
+  2. Click **Import** at the bottom of the environment list.
+  3. Select **Local drive**, browse to and select the repository's [`environment.yml`](./environment.yml) file, and click **Import**.
+  4. Once downloaded and installed, activate `intuitive_biostatistics_python` by clicking the green arrow or selecting it in the environment list.
+
+* **Via Terminal (`conda` CLI alternative):**
+
+  ```bash
+  conda env create -f environment.yml
+  conda activate intuitive_biostatistics_python
+  ```
+
+**3. Launch Jupyter Notebook:**
+
+* Return to the **Home** tab in Anaconda Navigator and verify that the dropdown shows *"All applications on intuitive_biostatistics_python"*.
+* Locate **Jupyter Notebook** and click **Launch** (this opens Jupyter in your default web browser).
+* In the Jupyter file browser, navigate to the folder containing your companion notebooks and click any `.ipynb` file to open it (or select **New** > **Python 3 (ipykernel)** to start a fresh notebook).
+* Run cells using `Shift + Enter` or via **Run** > **Run Selected Cell**.
+* When finished, save your work, go to the **Running** tab in Jupyter to shut down running kernels, and safely exit Anaconda Navigator.
+
 ---
 
 ## 💬 Community, Q&A, and Errata
