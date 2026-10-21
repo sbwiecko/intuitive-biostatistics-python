@@ -13,13 +13,14 @@
 
 <br/>
 
-<a href="https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845028">
+<a href="https://academic.oup.com/book/63332">
   <img src="cover.png" alt="Intuitive Biostatistics with Python Book Cover" width="260">
 </a>
 
 <p>
-  📚 <b><a href="https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845028">Get the Book on Oxford University Press</a></b> • 
-  💬 <b><a href="https://github.com/sbwiecko/intuitive-biostatistics-python/discussions">Join the Reader Community</a></b>
+  📖 <b><a href="https://doi.org/10.1093/oso/9780197845028.001.0001">Access Book via Oxford Academic (DOI)</a></b> • 
+  🛒 <b><a href="https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845028">Order Print / E-Book (OUP)</a></b> • 
+  💬 <b><a href="https://github.com/sbwiecko/intuitive-biostatistics-python/discussions">Reader Community</a></b>
 </p>
 
 </div>
@@ -169,11 +170,31 @@ This repository serves as an open forum for readers:
 
 ---
 
-## 📚 Get the Book
+## 📚 How to Access the Book
 
-If you are following along with this code and would like the complete theoretical background, worked biological contexts, and conceptual foundations:
+* **🏛️ Online Reading & Institutional Access (Oxford Academic):**  
+  Available via persistent DOI: **[doi.org/10.1093/oso/9780197845028.001.0001](https://doi.org/10.1093/oso/9780197845028.001.0001)**. University and research institute members can access the full electronic chapters through their library subscriptions (Shibboleth/OpenAthens/IP).
+* **🛒 Print & Commercial E-Book Editions (Hardcover, Paperback, E-Book):**  
+  Order physical hardbound/paperback copies or individual digital editions directly through the **[Oxford University Press Catalog](https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845028)** or your preferred academic bookseller.
 
-👉 **[Buy "Intuitive Biostatistics with Python" on Oxford University Press](https://global.oup.com/academic/product/intuitive-biostatistics-with-python-9780197845035)**
+### 🔖 Citation & Bibliographic Metadata
+
+```bibtex
+@book{wieckowskiIntuitiveBiostatisticsPython2026,
+	author = {Wieckowski, Sébastien},
+	title = {Intuitive biostatistics with python: a python companion guide for life sciences professionals},
+	publisher = {Oxford University Press},
+	year = {2026},
+	doi = {10.1093/oso/9780197845028.001.0001},
+	edition = {1},
+	isbn = {978-0-19-784502-8 978-0-19-784588-2},
+	url = {https://academic.oup.com/book/63332}
+}
+```
+
+* **Print ISBN:** `9780197845028` (Hardcover / Paperback)
+* **Online ISBN:** `9780197845882` (Oxford Academic / Electronic)
+* **DOI:** `10.1093/oso/9780197845028.001.0001`
 
 ---
 
